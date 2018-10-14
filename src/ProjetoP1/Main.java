@@ -38,7 +38,7 @@ public class Main {
             mundo.imprimeMundo(vetor);
             mundo.mover(vetor);
             mundo.colide(vetor);
-            Thread.sleep(85);
+            Thread.sleep(500);
 
         }
 
