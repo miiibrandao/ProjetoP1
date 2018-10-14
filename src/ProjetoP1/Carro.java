@@ -7,20 +7,24 @@ package ProjetoP1;
 
 /**
  *
- * @author Michelle
+ * @author Michelle Pereira Brandão
  */
-public class Carro extends Veiculo{
+public class Carro extends Veiculo {
 
-    public Carro(Mundo m, int x, int y,int passageiros) {
-        super(m, x, y, 2,3, "\u001B[41m");//vermelho
+    /**
+     * 
+     * @param m
+     * @param x
+     * @param y
+     * @param passageiros determina o número de passageiros
+     */
+    public Carro(Mundo m, int x, int y, int passageiros) {
+        super(m, x, y, 2, 3, "\u001B[41m");//cor vermelha
         this.passageiros = passageiros;
-        
+
     }
 
-   
-
-    
-    public int getPassageiros(){
+    public int getPassageiros() {
         return passageiros;
     }
     private final int passageiros;
